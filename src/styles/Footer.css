@@ -1,0 +1,119 @@
+.footer {
+    bottom: 0;
+    width: 85%;
+    margin-left:15%;
+    z-index: 100;
+    background-color: black;
+    color: #fff;
+}
+
+.footer-content {
+    width:80%;
+    margin: auto;
+    padding-top:5%;
+    padding-bottom:3%;
+}
+
+.subscribe-and-links {
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 3em;
+}   
+
+.subscribe-content {
+    width: 80%;
+}
+
+.subscribe-input {
+    width: 20%;
+    border: none;
+    font-size: 1em;
+    padding:1em;
+    background-color: black;
+    transition: width 0.4s ease-in-out;
+    outline: none;
+    border-bottom: 3px solid white;
+    color:#fff;
+}
+
+.subscribe-input:hover {
+    width: 40%;
+    border-bottom: 3px solid white;
+}
+
+.subscribe-btn {
+    border: 1px solid white;
+    color:black;
+    background:white;
+    border-radius: 5px;
+    padding:1em;
+    width:10%;
+    margin:1em auto;
+    margin-left: 2em;
+    transition: all .5s ease-out;
+}
+
+.subscribe-btn:hover {
+    color:white;
+    background-color: black;
+    cursor: pointer;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+}
+
+
+.subscribe-btn[disabled=disabled], .subscribe-btn:disabled {
+    color:rgb(120, 120, 120);
+    border: 1px solid rgb(120, 120, 120);
+    background: none;
+}
+
+.subscribe-btn[disabled=disabled]:hover, .subscribe-btn:disabled:hover {
+    color:rgb(80, 80, 80);
+    border: 1px solid rgb(80, 80, 80);
+    background: none;
+    cursor:not-allowed;
+}
+
+.router-links, .social-media {
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    gap:0.5em;
+}
+
+.router-links div, .social-media div {
+    display: flex;
+    flex-direction: column;
+}
+
+.pages-link, .social-media a {
+    text-decoration: none;
+    color:white;
+    transition: all .5s ease-out;
+}
+  
+.pages-link:hover, .social-media a:hover {
+    color:rgb(165, 165, 165);
+    transition: all .5s ease-out;
+}
+
+.social-contact {
+    width:60%;
+    margin:auto;
+    display: flex;
+}
+
+.social-media {
+    width: 50%;
+}
+
+.contact-us {
+    width: 50%;
+    text-align: right;
+}
+
+.icon {
+    vertical-align: bottom;
+    margin-right:5px;
+}
