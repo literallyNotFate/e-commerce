@@ -1,0 +1,133 @@
+.feedback-content {
+    display:flex;
+    flex-direction: column;
+    gap:2em;
+}
+
+.feedback-set {
+    display:flex;
+    justify-content: space-between;
+}
+
+.feedback-set div {
+    width:50%;
+}
+
+.username-input {
+    width: 40%;
+    border: none;
+    font-size: 1em;
+    padding:1em;
+    transition: width 0.4s ease-in-out;
+    outline: none;
+    border-bottom: 3px solid rgb(0, 160, 0);
+}
+
+.username-input:hover {
+    width: 60%;
+    border-bottom: 3px solid rgb(0, 160, 0);
+}
+
+.send-feedback-btn {
+    border: 1px solid rgb(0, 160, 0);
+    color:rgb(0, 160, 0);
+    background:white;
+    border-radius: 5px;
+    padding:1em;
+    width:7%;
+    margin:1em auto;
+    margin-left: 2em;
+    transition: all .5s ease-out;
+    margin-bottom: 2em;
+}
+
+.send-feedback-btn:hover {
+    color:white;
+    background-color: rgb(0, 160, 0);
+    cursor: pointer;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+}
+
+.username-text {
+    width:90%;
+}
+
+.feedback-input {
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 120, 0);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 1.2em;
+    resize: none;
+    outline: none;
+    transition: all .5s ease-out;
+}
+
+.feedback-input:focus {
+    border: 2px solid rgb(0, 160, 0);
+}
+
+
+/* -------------------------------------------- */
+
+.comments-list {
+    display: flex;
+    flex-direction: column;
+    gap:3em;
+}
+
+.comment-element {
+    padding:1em;
+    box-shadow: 12px 0px 48px -5px rgba(184, 184, 184, 0.81);
+    width:60%;
+}
+
+.comment-content {
+    display: flex;
+    flex-direction: row;
+    gap:2em;
+}
+
+.username-comment {
+    width: 80%;
+}
+
+.user-avatar {
+    margin: auto;
+    margin-left: 1%;
+    margin-right:0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    text-align: center;
+    font-size: 5em;
+}
+
+.user-icon {
+    font-size: 0.8em;
+    vertical-align:10px;
+}
+
+.feedback-text {
+    height:100px;
+    width:100%;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.delete-icon {
+    color:rgb(130, 0, 0);
+    font-size:2em;
+    transition: all .5s ease-out;
+    float:right;
+    margin-right:0.5em;
+    cursor: pointer;
+}
+
+.delete-icon:hover {
+    color:rgb(180, 0, 0);
+}

@@ -1,10 +1,10 @@
-import Contacts from "./pages/Contacts";
+import Feedback from "./pages/Feedback";
 
 // Main
 export default function App() {
     return (
       <>
-        <Contacts/>
+        <Feedback/>
       </>
     );
 }
