@@ -1,11 +1,10 @@
-import Header from "./components/Header";
-import Products from "./components/Products";
+import About from "./pages/About";
 
 // Main
 export default function App() {
     return (
       <>
-        <Products/>
+        <About/>
       </>
     );
 }
