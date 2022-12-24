@@ -1,0 +1,48 @@
+.contacts-content {
+    display:flex;
+    flex-direction: column;
+    gap:2em;
+}
+
+.contacts-content p {
+    font-size: 1.2em;
+}
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:300px;
+    width:300px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none !important;
+    height:300px;
+    width:300px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.map-info, .phone-info, .email-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map-info p {
+    width:90%;
+}
+
+.big-icon {
+    font-size:20em;
+}
+
+.left-icon-pos {
+    margin-right:0.2em;
+}
+
+.right-icon-pos {
+    margin-left:0.2em;
+}
